@@ -1,0 +1,19 @@
+
+from flask import Flask
+
+
+app = Flask (__name__)
+
+@app.route('/')
+def index():
+    return "Hi I'm Mark Randell G. Zantua"
+
+@app.route('/is/')
+def How():
+    return "I love playing basketball"
+
+
+@app.route('/hi/')
+def greet():
+    return "And i'm shy! "
+
